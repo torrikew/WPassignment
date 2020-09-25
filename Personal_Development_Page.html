@@ -1,0 +1,73 @@
+<!--Name: Torrike Whittaker 
+    ID Number: 1801536
+    Web Programming-->
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            
+            <!--Form tag that contains a submit button that, when clicked, redirects the person back to the splash page-->
+            <table>
+                <tr>    
+                    <th>
+                    <form action="Splash Page.html">
+                        <input type="submit" value="Return to Home Page">
+                    </form>
+                </th>
+                <th>    
+                <form action="Professional_Page.html">
+                        <input type="submit" value="Go to Professional Page">
+                    </form>
+                </th>
+                <th>
+                <form action="Personality_Page.html">
+                    <input type="submit" value="Go to Personality Page">
+                </form>
+            </th>
+                </tr>
+                </table>
+            
+            <title>Personal Development</title>
+            
+            
+        </head>
+
+        <body background="../Assets/Background Assets/lines.gif">
+            
+            <!--Font tag modifies the colour and size of the font that is inside the tags-->
+            <font color="blue" size="4">
+                <h1 align="center">Welcome to my Personal Development Page!</h1>
+                <br>
+                <h4 align="center"><p>Before you click any of the links to see information about my 
+                <br> look at the result from my personal assessment below</p></h4>
+            </font>
+                <br><br>
+
+                <!--Constructs a table with no borders, a background colour, 3 rows and 5 columns. Used for selecting a page to view in the iframe-->
+                <table border="0" bgcolor="f0a500">
+                    
+                    <tr>
+                        
+                        <th>Links</th>
+                    </tr>
+                    
+                    <tr>
+                       
+                        <th><a href="Strengths.html" target="Development">My Strengths</a></th>
+                        
+                        <!--Modified column contains an embeded link that shows an image of assessment results-->
+                        <th bgcolor="cf7500" rowspan="3"><center><embed src="../Assets/Personal Development Page Assets/Assessment Results.png" width="630px" height="500px"></center></th>
+                        
+                            <!--Modified column contains an iframe that is used to view links on the webpage-->
+                        <th rowspan="3" width="90%" height="300%" bgcolor="cf7500"><iframe name="Development" width="90%" height="300%" frameborder="no"></iframe></th>
+                    </tr>
+
+                    <tr>
+                        <!--Contains a link that targets and is displayed in the iframe with the name "Development"-->
+                        <th><a href="Assessment Results.html" target="Development">Assessment Discussion</a></th>
+                    </tr>
+                </table>
+
+        </body>
+
+    </html>

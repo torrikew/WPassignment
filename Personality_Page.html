@@ -1,0 +1,105 @@
+<!--Name: Torrike Whittaker 
+    ID Number: 1801536
+    Web Programming-->
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <!--Form tag that contains a submit button that, when clicked, redirects the person back to the splash page-->
+            <table>
+                <tr>    
+                    <th>
+                    <form action="Splash Page.html">
+                        <input type="submit" value="Return to Home Page">
+                    </form>
+                </th>
+                <th>    
+                <form action="Professional_Page.html">
+                        <input type="submit" value="Go to Professional Page">
+                    </form>
+                </th>
+                <th>
+                <form action="Personal_Development_Page.html">
+                    <input type="submit" value="Go to Personal Development Page">
+                </form>
+            </th>
+                </tr>
+                </table>
+            <title>Personality &#128513</title>
+        </head>
+
+        <!--Background tag changes the background of the webpage with an image specified by the file path-->
+        <body background="../Assets/Background Assets/lines.gif">
+
+            <!--Font tag modifies the colour and size of the font that is inside the tags-->
+            <font color="blue" size="6">
+                <h1 align="center">Welcome to My Personality Page!!</h1>
+            </font>
+            <!--Displays a rescaled welcoming GIF-->
+            <center><img src="../Assets/dave-grohl-sup.gif" width="150px" alt="Welcoming GIF"></center>
+            
+            <!--Constructs a table with no borders, an aqua background, 7 rows and 9 columns. Used for selecting a page to view in the iframe-->
+            <table bgcolor="aqua">
+                <tr>
+                    <th width="10%">Links</th>
+                    <th width="100%">Don't be shy, click one of the links to learn something about me 🙃</th>
+                </tr>
+
+                <tr>
+                    <!--Contains an anchor tag that references a page with an ID so it jumps to that specific part and also displays in ifame "Personality"-->
+                    <th>
+                        <a href="Basic Info.html#P1" target="Personality">Basic Stuff</a>
+                    </th>
+                    
+                    <!--Contains an iframe with colour (in hex) and span a total of 8 rows-->
+                    <td bgcolor="##5D6D7E" rowspan="8"> 
+                                        
+                    <!--Used as a sort of "viewing area" for the links to webpages or documents that were selected-->
+                    <iframe name="Personality" width="100%" height="400%" frameborder="no"></iframe>         
+                    </td>
+                
+                </tr>
+
+                <!--Contains an anchor tag that references a page with an ID so it jumps to that specific part and also displays in ifame "Personality"-->
+                <tr>
+                    <th><a href="Basic Info.html#P2" target="Personality">What do you like to do?</a></th>
+                </tr>
+
+                <!--Contains a link that will be opened in the iframe (viewing area)-->
+                <tr>
+                    <th>
+                <a href="https://www.youtube.com/embed/aYWLbiIkkFc" target="Personality"> What's your favourite song at the moment?</a>
+                </th>
+                </tr>
+
+                <!--Contains a link that opens a Google Maps snippet to be displayed in the iframe-->
+                <tr>
+                    <th>
+                        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3786.8799872500676!2d-76.91703738510974!3d18.352758787506975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edae1fe2eccf249%3A0xa3bafa4f8af5147b!2sTryall!5e0!3m2!1sen!2sjm!4v1600586807970!5m2!1sen!2sjm" width="400" height="300" target="Personality"> Where did you grow up?</a>
+                    </th>
+                </tr>
+
+                <!--Contains an anchor tag that references a page with an ID so it jumps to that specific part and also displays in ifame "Personality"-->
+                <tr>
+                    <th>
+                        <a href="Basic Info.html#P5" target="Personality">What are some things you dislike?</a>
+                    </th>
+                </tr>
+
+                <!--Contains a link that when clicked will open in another tab on the browser-->
+                <tr>
+                    <th>
+                        <a href="https://www.jnbslive.com/Default.aspx" target="_blank">What's your favourite website to visit?</a>
+                    </th>
+                </tr>
+
+
+
+
+            </table>
+            
+
+        </body>
+
+
+    </html>

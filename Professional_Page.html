@@ -1,0 +1,74 @@
+<!--Name: Torrike Whittaker 
+    ID Number: 1801536
+    Web Programming-->
+
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Professional</title>
+            <!--Form tag that contains a submit button that, when clicked, redirects the person back to the splash page-->
+            <table>
+        <tr>    
+            <th>
+            <form action="Splash Page.html">
+                <input type="submit" value="Return to Home Page">
+            </form>
+        </th>
+        <th>    
+        <form action="Personality_Page.html">
+                <input type="submit" value="Go to Personality Page">
+            </form>
+        </th>
+        <th>
+        <form action="Personal_Development_Page.html">
+            <input type="submit" value="Go to Personal Development Page">
+        </form>
+    </th>
+        </tr>
+        </table>
+        </head>
+
+        <!--Background tag changes the background of the webpage with an image specified by the file path-->
+        <body background="../Assets/Background Assets/lines.gif">
+            
+            <!--Font tag modifies the colour and size of the font that is inside the tags-->
+            <font color="blue" size="6">
+                <h1 align="center">Good Day, Welcome to my Professional Page</h1>
+                <p align="center"><b>To view information, click any of the links at the side.</b></p>
+            </font>
+            
+            <!--Constructs a table with no borders, a pink background, 5 rows and 4 columns. Used for selecting a page to view in the iframe-->
+            <table border="0" bgcolor="pink" >
+                <tr bgcolor="black">
+                    <th> <font color="white">Useful Links</th>
+                    <th width="100%"></th>
+                    </font>
+                </tr>
+                <tr>
+                    <!--Link in the anchor tag contains a bookmark (#M1) that jumps to a specific part of a page when selected-->
+                    <td bgcolor="black"><a href="Statements.html#M1" target="Mission Statement"> <font color="white">Mission Statement</font></a></td>
+                    
+                    <!--Used as a sort of "viewing area" for the links to webpages or documents that were selected-->
+                    <td rowspan="4"><iframe frameborder="0" name="Mission Statement" width ="100%" height="402%" ></iframe></td>
+                </tr>
+                
+                <tr>
+                    <!--Link in the anchor tag contains a bookmark (#M1) that jumps to a specific part of a page when selected-->
+                    <td bgcolor="black"><a href="Statements.html#M2" target="Mission Statement"><font color="white">Vision Statement</font></a></td>
+                </tr>
+                
+                <tr>
+                    <!--Link goes to the iframe for viewing instead of viewing as a full webpage-->
+                    <td bgcolor="black"><a href="../Assets/Torrike's Resume.pdf" target="Mission Statement"><font color="white">Resume</font></a></td>
+                </tr>
+                
+                <tr>
+                    <td bgcolor="black"><a href="Contact Page.html" target="Mission Statement"><font color="white">Contact</font></a></td>
+                </tr>
+
+            </table>
+
+
+        </body>
+
+    </html>
